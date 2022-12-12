@@ -30,7 +30,7 @@ class ProductDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             Text(
-              '\$${product.price}',
+              '${product.price}\VND',
               style: const TextStyle(
                 color: Colors.grey,
                 fontSize: 20,

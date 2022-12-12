@@ -15,7 +15,7 @@ class CartScreen extends StatelessWidget {
     final cart = context.watch<CartManager>();
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Your Cart'),
+        title: const Text('Thanh toán'),
       ),
       body: Column(
         children: <Widget>[
@@ -57,7 +57,7 @@ class CartScreen extends StatelessWidget {
             const Spacer(),
             Chip(
               label: Text(
-                '\$${cart.totalAmount.toStringAsFixed(2)}',
+                '${cart.totalAmount.toStringAsFixed(2)}\VND',
                 style: TextStyle(
                   color: Theme.of(context).primaryTextTheme.headline6?.color,
                 ),

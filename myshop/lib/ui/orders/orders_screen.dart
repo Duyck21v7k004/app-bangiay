@@ -14,7 +14,7 @@ class OrdersScreen extends StatelessWidget {
     final ordersManager = OrdersManager();
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Your Orders'),
+        title: const Text('Đơn hàng của bạn'),
       ),
       drawer: const AppDrawer(),
       /* body: ListView.builder(

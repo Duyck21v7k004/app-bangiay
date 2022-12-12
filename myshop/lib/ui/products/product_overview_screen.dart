@@ -22,7 +22,7 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('MyShop'),
+        title: const Text('Galaxy Shoes'),
         actions: <Widget>[
           buildProductFilterMenu(),
           buildShoppingCartIcon(),
@@ -79,11 +79,11 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
       itemBuilder: (ctx) => [
         const PopupMenuItem(
           value: FilterOptions.favorites,
-          child: Text('Only Favorites'),
+          child: Text('Sản phẩm đã thích'),
         ),
         const PopupMenuItem(
           value: FilterOptions.all,
-          child: Text('Show All'),
+          child: Text('Tất cả sản phẩm'),
         ),
       ],
     );

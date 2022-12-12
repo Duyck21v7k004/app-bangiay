@@ -7,13 +7,13 @@ class OrdersManager with ChangeNotifier {
   final List<OrderItem> _orders = [
     OrderItem(
       id: '01',
-      amount: 59.98,
+      amount: 35900,
       products: [
         CartItem(
           id: 'c1',
-          title: 'Red Shirt',
-          price: 29.99,
-          quantity: 2,
+          title: 'Nike Air Max Excee',
+          price: 35900,
+          quantity: 1,
         )
       ],
       dateTime: DateTime.now(),
@@ -32,7 +32,7 @@ class OrdersManager with ChangeNotifier {
     _orders.insert(
       0,
       OrderItem(
-        id: 'o${DateTime.now().toIso8601String()}',
+        id: '${DateTime.now().toIso8601String()}\VND',
         amount: total,
         products: cartProducts,
         dateTime: DateTime.now(),

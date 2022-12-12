@@ -6,10 +6,10 @@ import '../../models/cart_item.dart';
 class CartManager with ChangeNotifier {
   Map<String, CartItem> _items = {
     'p1': CartItem(
-      id: 'c1',
-      title: 'Red Shirt',
-      price: 29.99,
-      quantity: 2,
+      id: '0',
+      title: 'Nike Air Max Excee',
+      price: 359000,
+      quantity: 1,
     ),
   };
 

@@ -1,0 +1,10 @@
+C:/Users/MyPC/myshop/build/windows/CMakeFiles/INSTALL.dir
+C:/Users/MyPC/myshop/build/windows/CMakeFiles/ALL_BUILD.dir
+C:/Users/MyPC/myshop/build/windows/CMakeFiles/ZERO_CHECK.dir
+C:/Users/MyPC/myshop/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Users/MyPC/myshop/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Users/MyPC/myshop/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+C:/Users/MyPC/myshop/build/windows/flutter/CMakeFiles/INSTALL.dir
+C:/Users/MyPC/myshop/build/windows/runner/CMakeFiles/myshop.dir
+C:/Users/MyPC/myshop/build/windows/runner/CMakeFiles/INSTALL.dir
+C:/Users/MyPC/myshop/build/windows/runner/CMakeFiles/ALL_BUILD.dir
